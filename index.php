@@ -50,7 +50,7 @@
                         <li><a href="Admin.php">Try As Admin</a></li>
                     </ul>
                 </li>
-                <li title="Blog" id="Tour2"><a href="User.php"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                <li title="Blog" id="Tour2"><a href="index.php"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
                 <li title="Accout Supscription" id="Tour3"><a href="Subscription.php"><i class="fa fa-credit-card" aria-hidden="true"></i></a></li>
             </ul>
         </div>
@@ -114,19 +114,19 @@
                             <nav aria-label="Page navigation">
                                 <ul class="pagination pagination-lg">
                                     <li>
-                                        <a href="User.php?page='.($x-1).'" aria-label="Previous">
+                                        <a href="index.php?page='.($x-1).'" aria-label="Previous">
                                             <span aria-hidden="true">&laquo;</span>
                                         </a>
                                     </li>
                         ';
                         for ($i=1; $i<=$iteration; $i++) {
                             echo '
-                                    <li><a href="User.php?page='.$i.'">'.$i.'</a></li>
+                                    <li><a href="index.php?page='.$i.'">'.$i.'</a></li>
                             ';
                         }
                         echo '
                                     <li>
-                                        <a href="User.php?page='.($x+1).'" aria-label="Next">
+                                        <a href="index.php?page='.($x+1).'" aria-label="Next">
                                             <span aria-hidden="true">&raquo;</span>
                                         </a>
                                     </li>
