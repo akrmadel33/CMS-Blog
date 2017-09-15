@@ -1,0 +1,125 @@
+hr {
+    border-color: black;
+}
+
+#Navigation .container-fluid {
+    padding: 0 40px;
+}
+
+#Navigation .navbar-brand {
+    font-family: 'Baloo Tammudu', cursive;
+    font-size: 25px;
+    position: relative;
+    top: 8px;
+    color: #fff;
+}
+
+#Navigation .navbar-nav >li >a {
+    font-family: 'Baloo Tammudu', cursive;
+    font-size: 20px;
+}
+
+#Cover-photo {
+    margin: 60px 0;
+    width: 100%;
+    height: 300px;
+    background-image: url(https://cheerup.theme-sphere.com/travel/wp-content/uploads/sites/6/2016/09/header-bg.jpg);
+    background-size: cover;
+    
+}
+
+#Posts .headding,
+#Posts .date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+#Posts .headding {
+    font-weight: 800;
+    font-size: 30px;
+    color: black;
+}
+
+#Posts .post {
+    margin: 20px 0;
+    font-size: 15px;
+    text-align: justify;
+}
+
+#Posts .btn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0 20px;
+    border: 1px solid rgba(189, 195, 199,1.0);
+    border-radius: 20px;
+    background-color: rgba(189, 195, 199,1.0);
+    color: black;
+    cursor: pointer;
+}
+
+#Posts .btn-more div {
+    display: inline-block;
+    background-color: black;
+    height: 3px;
+    position: relative;
+    top: -3px;
+}
+
+#Offers .col-sm-4 .cont {
+    border: 2px solid black;
+    border-radius: 21px;
+    box-sizing: content-box;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+#Offers .col-sm-4 .cont:hover {
+    border: 5px solid #3498db;
+    border-radius: 27px;
+}
+
+#Offers .col-sm-4 .cont div:first-child {
+    font-family: 'Baloo Tammudu', cursive;
+    font-size: 30px;
+    background-color: #3498db;
+    border-radius: 20px 20px 0 0;
+    padding: 20px 0 10px;
+}
+
+#Offers .col-sm-4 .cont>div:nth-child(3) {
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+#Offers .col-sm-4 .cont ul {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+#FormOffers .text-left {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+
+#FormOffers .form {
+    position: relative;
+    top: -6px;
+}
+
+#AdminPanel ul li a {
+    color: #9FB1C2;
+}
+
+#AdminPanel .active a {
+    color: white;
+    background-color: #27AAE1;
+    font-weight: bold;
+}
+
+#AdminPanel ul li a:hover {
+    background-color: #1AB394;
+    color: white;
+    font-weight: bold;
+}
