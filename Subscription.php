@@ -50,7 +50,7 @@
                         <li><a href="Admin.php">Try As Admin</a></li>
                     </ul>
                 </li>
-                <li title="Blog"><a href="User.php"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                <li title="Blog"><a href="index.php"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
                 <li title="Accout Supscription"><a href="Subscription.php"><i class="fa fa-credit-card" aria-hidden="true"></i></a></li>
             </ul>
         </div>
