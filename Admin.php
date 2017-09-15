@@ -47,7 +47,7 @@
                         ADMIN
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="User.php">Try As User</a></li>
+                        <li><a href="index.php">Try As User</a></li>
                     </ul>
                 </li>
             </ul>
